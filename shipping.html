@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+
+  <title> SUPER SPECS </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" /> 
+<script type = "text/javascript">  
+   function validateForm(){
+ {
+  let x = document.forms["form1"]["fname"].value;
+  if (x == "") 
+{
+    alert("First_Name must be filled out");
+event.preventDefault();
+    return false;
+  }
+}
+{
+let x = document.forms["form1"]["lname"].value;
+  if (x == "") 
+{
+    alert("Last_Name must be filled out");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["mail"].value;
+  if (x == "") 
+{
+    alert("Email address must be filled out");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["gender"].value;
+  if (x == "") 
+{
+    alert("Please select Gender");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["address"].value;
+  if (x == "") 
+{
+    alert("Please enter address");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["city"].value;
+  if (x == "") 
+{
+    alert("Please select City");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["pin"].value;
+  if (x == "") 
+{
+    alert("Please enter Pincode");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["pwd"].value;
+  if (x == "") 
+{
+    alert("Please enter Password");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["cpwd"].value;
+  if (x == "") 
+{
+    alert("Please enter confirmed Password");
+event.preventDefault();
+    return false;
+  } 
+}
+
+}
+</script> 
+<style>
+.container {
+  position: relative;
+
+}
+
+.text-block {
+  position: absolute;
+  bottom: 50px;
+  right: 90px;
+left: 50px;
+height: 700px;
+width: 1050px;
+  background-color: black;
+  color: yellow;
+opacity: 0.7;
+}
+
+</style>
+</head>
+
+<body style="background-color:#3c2946;">
+
+  <!-- header section strats -->
+  <header class="innerpage_header header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span>
+           SUPER SPECS
+          </span>
+        </a>
+        <div class="" id="">
+
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="shop.html">Shop</a>
+                <a href="blog.html">Blog</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+  <!-- shop section -->
+
+<section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          SHIPPING INFORMATIONS.....
+        </h2>
+      </div>
+<div class="container">
+  <img src="images\deli.jpg" alt="Delivery" style="width:100%;">
+  <div class="text-block">
+   <center>
+<form name="form1" action="#"><br><br>
+<label><h5><b>Title</b></h5></label>
+    <label>
+      <input type="radio" name="title" value="mr">
+      Mr
+    </label>
+    <label>
+      <input type="radio" name="title" value="mrs">
+      Mrs
+    </label>
+    <label>
+      <input type="radio" name="title" value="miss">
+      Miss
+    </label><br>
+<label><h5><b>First Name: &nbsp;&nbsp;</b></h5></label>
+<input type="text" name="fname" placeholder="Enter your name"> <br>
+<label><h5><b>Last Name: &nbsp;&nbsp;</b></h5></label>
+<input type="text" name="lname" placeholder="Enter your Last name"><br>
+<label><h5><b>E-mail address: &nbsp;&nbsp;</b></h5></label>
+<input type="email" name="mail" placeholder="Enter your Email address"><br>
+<label><h5><b>Gender: </b></h5></label>
+    <label>
+      <input type="radio" name="gender" value="Male">
+      Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="Female">
+      Female
+    </label><br>
+<label><h5><b>Residential Address: &nbsp;&nbsp;</b></h5></label>
+<input type="text" name="address" placeholder="Enter your home address"><br>
+<label><h5><b>City: &nbsp;</b></h5></label>
+    <select name="city" required>
+<option> </option>
+      <option>Chennai</option>
+      <option>Coimbatore</option>
+      <option>Salem</option>
+      <option>Trichy</option>
+      <option>Madurai</option>
+    </select><br>
+<label><h5><b>Pincode: &nbsp;&nbsp;</b></h5></label>
+<input type="number" name="pin" placeholder="Enter your Pincode"><br>
+<label><h5><b>Password: &nbsp;&nbsp;</b></h5></label>
+    <input type="password" name="pwd" placeholder="Enter your Password"><br>
+<label><h5><b>Confirm Password: &nbsp;&nbsp;</b></h5></label>
+    <input type="password" name="cpwd" placeholder="Enter your Confirm Password"><br>
+<label><h4><b>
+      <input type="checkbox" value="terms" checked="true" onclick="return false;">
+      I agree to the <a href=" ">terms and conditions</a></b></h4>
+    </label><br>
+<a href="payment.html" onclick = "validateForm()">
+<img src="images\pay.png" alt="Payment">
+</a>
+</a>
+</form>
+</center>
+  </div>
+</div>
+
+  </section>
+
+  <!-- end shop section -->
+
+  <!-- info section -->
+
+  <section class="info_section ">
+    <div class="container-fluid">
+      <div class="row info_main_row">
+        <div class="col-lg-7 mx-auto">
+          <div class="row">
+            <div class="col-md-4 info-col">
+              <div class="info_detail">
+                <h4>
+                  About
+                </h4>
+                <p>
+                  Super specs is the leading e-commerce portal for eyewear in India. Please follow, like, share @
+                </p>
+                <div class="info_social">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 info-col">
+              <div class="info_contact">
+                <h4>
+                  Reach at..
+                </h4>
+                <div class="contact_link_box">
+                  <a href="">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>
+                      Location
+                    </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                      Call +91 9876543210
+                    </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                      super_specs@gmail.com
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 info-col">
+              <div class="info_contact">
+                <h4>
+                  Subscribe
+                </h4>
+                <form action="#">
+                  <input type="text" placeholder="Enter email" />
+                  <button type="submit">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--
+        <div class="col-lg-4 px-0 info-col">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By Super Specs
+        
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map --> 
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+   function validateForm(){
+ {
+  let x = document.forms["form1"]["card"].value;
+  if (x == "") 
+{
+    alert("Card_Name must be filled out");
+event.preventDefault();
+    return false;
+  }
+}
+{
+let x = document.forms["form1"]["cnum"].value;
+  if (x == "") 
+{
+    alert("Card Number is mandatory");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["cvv"].value;
+  if (x == "") 
+{
+    alert("CVV number is mandatory");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["month"].value;
+  if (x == "") 
+{
+    alert("Please select Month");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["year"].value;
+  if (x == "") 
+{
+    alert("Please enter year");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["City"].value;
+  if (x == "") 
+{
+    alert("Please select City");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["pin"].value;
+  if (x == "") 
+{
+    alert("Please enter Pincode");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["pwd"].value;
+  if (x == "") 
+{
+    alert("Please enter Password");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["cpwd"].value;
+  if (x == "") 
+{
+    alert("Please enter confirmed Password");
+event.preventDefault();
+    return false;
+  } 
+}
+{
+let x = document.forms["form1"]["check"].value;
+  if (x == "") 
+{
+    alert("Please accept the Terms and Condition");
+event.preventDefault();
+    return false;
+  }
+}
+}
